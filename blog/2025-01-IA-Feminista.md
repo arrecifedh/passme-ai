@@ -1,363 +1,182 @@
-🟢 Introducción
-¿Por qué hablar de descolonizar la IA ahora?
-La inteligencia artificial (IA) avanza rápidamente en América Latina y el Caribe. Gobiernos, empresas y organismos internacionales promueven su adopción como una solución eficiente para mejorar servicios públicos, optimizar políticas sociales, fortalecer la seguridad, modernizar la justicia o impulsar el desarrollo económico. Sin embargo, este despliegue acelerado ocurre, en la mayoría de los casos, sin marcos regulatorios sólidos, sin datos representativos de nuestras poblaciones y sin una reflexión profunda sobre sus impactos sociales, políticos y culturales.
-Lejos de ser una tecnología neutral, la IA es una infraestructura de poder. Los sistemas algorítmicos incorporan decisiones humanas, valores implícitos y supuestos históricos que reflejan, y muchas veces amplifican, las desigualdades existentes. Cuando estos sistemas se diseñan, entrenan e implementan desde contextos ajenos a la realidad latinoamericana, el riesgo no es únicamente técnico: es estructural. En este escenario, la IA puede convertirse en una nueva forma de colonialidad tecnológica, reproduciendo dependencias históricas, concentrando poder y profundizando exclusiones.
-Hablar de descolonizar la inteligencia artificial no es una metáfora académica ni una consigna abstracta. Es una necesidad urgente frente a un modelo dominante de desarrollo tecnológico que posiciona a América Latina como consumidora de tecnologías importadas, pero rara vez como productora de conocimiento, marcos éticos o infraestructuras propias. La mayoría de los modelos de IA que se utilizan en la región han sido entrenados con datos del Norte Global, en idiomas hegemónicos, bajo lógicas culturales, jurídicas y económicas que no reflejan nuestras realidades sociales, territoriales ni históricas.
-Este desbalance tiene consecuencias concretas. Sistemas automatizados de focalización social que excluyen a poblaciones vulnerables; tecnologías de vigilancia que afectan de forma desproporcionada a comunidades racializadas; modelos lingüísticos que invisibilizan lenguas indígenas; algoritmos de reconocimiento facial con altas tasas de error en mujeres y personas afrodescendientes; plataformas digitales que refuerzan estereotipos de género y sexualidad. Estos no son errores aislados: son síntomas de un diseño tecnológico que no ha sido pensado desde el Sur Global ni para sus pueblos.
-La relación entre IA y derechos humanos es, por tanto, central. La adopción de sistemas algorítmicos en ámbitos como la seguridad social, la justicia, la migración, la salud o la educación incide directamente sobre derechos fundamentales: igualdad y no discriminación, privacidad, debido proceso, acceso a servicios públicos, autodeterminación informativa y participación democrática. Sin una gobernanza adecuada, la IA puede consolidar prácticas de exclusión automatizada, dificultar los mecanismos de rendición de cuentas y debilitar el control ciudadano sobre decisiones que afectan la vida cotidiana de millones de personas.
-Desde América Latina, diversas autoras, organizaciones sociales, comunidades indígenas, colectivos feministas y centros de investigación vienen advirtiendo que no basta con adaptar marcos éticos globales. Es necesario construir enfoques situados, anclados en las experiencias históricas de la región, en sus luchas por la justicia social, en la diversidad cultural y lingüística, y en una comprensión crítica del poder. Descolonizar la IA implica cuestionar quién diseña la tecnología, con qué datos, para qué fines y bajo qué relaciones de poder. Implica también disputar la idea de que el progreso tecnológico es inevitable y neutral, y abrir el debate sobre qué tipo de tecnología queremos y para quién.
-Este documento se inscribe en esa disputa. A lo largo de los siguientes capítulos, organizados en torno a las cinco semanas de la campaña de enero, se propone un recorrido que va del diagnóstico a la acción: qué significa descolonizar la IA, cómo identificar sistemas algorítmicos coloniales, a quiénes dañan de forma desproporcionada, qué alternativas se están construyendo desde la región y cómo empezar a transformar estas prácticas en políticas públicas, marcos regulatorios y procesos de diseño tecnológico más justos.
-Este trabajo forma parte del esfuerzo más amplio de Arrecife, una organización que trabaja en la intersección entre derechos humanos, datos y tecnología en América Latina. Desde una perspectiva feminista, interseccional y regional, Arrecife busca contribuir a debates públicos informados, generar evidencia crítica y fortalecer capacidades para que la tecnología no sea una nueva herramienta de exclusión, sino un medio para la justicia algorítmica y la autodeterminación colectiva.
-Descolonizar la IA no significa rechazar la tecnología. Significa reapropiarla, disputarla y reconstruirla desde nuestras realidades. En un momento en que la inteligencia artificial redefine aceleradamente las formas de gobernar, vigilar, clasificar y decidir, no intervenir también es una decisión política. Este documento propone intervenir con mirada crítica, situada y colectiva.
+🧭 Descolonizar la Inteligencia Artificial
+Marco conceptual y político desde América Latina y el Caribe
 
+🟢 Introducción — ¿Por qué hablar de descolonizar la IA ahora?
+    • Expansión acelerada de sistemas de IA en América Latina y el Caribe
+    • Adopción de tecnologías sin marcos regulatorios sólidos
+    • Riesgo de colonialidad tecnológica:
+        ◦ extracción de datos
+        ◦ dependencia infraestructural
+        ◦ imposición de modelos externos
+    • Relación directa con derechos humanos:
+        ◦ igualdad y no discriminación
+        ◦ acceso a servicios públicos
+        ◦ autodeterminación cultural y política
+    • IA como nuevo campo de disputa política
+    • Conexión con:
+        ◦ trabajo de Arrecife
+        ◦ campaña regional de sensibilización
+        ◦ repositorio GitHub como archivo vivo
 
 🟩 Semana 1 — ¿Qué significa descolonizar la IA?
 Capítulo 1: Más allá de la metáfora
-Hablar de descolonizar la inteligencia artificial no es un ejercicio retórico ni una consigna abstracta. En América Latina y el Caribe, la tecnología ha sido históricamente una herramienta de dominación, introducida desde centros de poder externos para organizar territorios, clasificar poblaciones, extraer recursos y administrar desigualdades. La IA no rompe con esa historia: la continúa bajo nuevas formas.
-Desde esta región, descolonizar la IA implica nombrar la colonialidad tecnológica y rechazar la idea de que los sistemas algorítmicos son neutrales, universales o inevitables.
-Colonialidad tecnológica vs. neutralidad técnica
-La narrativa dominante presenta a la IA como una tecnología objetiva, guiada por datos y eficiencia. Sin embargo, como advierte Paola Ricaurte, los sistemas de datos y automatización están profundamente atravesados por relaciones de poder, intereses económicos y lógicas extractivas. La colonialidad tecnológica se manifiesta cuando los territorios del Sur Global son reducidos a fuentes de datos, campos de prueba o mercados de consumo, sin capacidad real de decisión sobre el diseño, uso o consecuencias de estas tecnologías.
-Esta supuesta neutralidad técnica oculta que la IA:
-    • se entrena con datos históricamente sesgados,
-    • se diseña desde epistemologías ajenas a los contextos locales,
-    • y se implementa sin mecanismos efectivos de rendición de cuentas para las comunidades afectadas.
-Descolonizar la IA exige desmontar esta ficción de neutralidad y reconocer que toda tecnología es política.
-Epistemologías del Norte Global y exclusión del saber situado
-La producción de conocimiento sobre IA continúa concentrándose en universidades, corporaciones y centros de investigación del Norte Global. Esta hegemonía epistémica define qué problemas importan, qué soluciones son válidas y qué formas de conocimiento son consideradas legítimas.
-Desde una crítica decolonial, Silvia Rivera Cusicanqui ha advertido que muchas teorías críticas reproducen formas de colonialismo cuando hablan sobre el Sur sin partir desde el Sur. Aplicado a la IA, esto se traduce en modelos que ignoran las realidades sociales, lingüísticas, territoriales y culturales de América Latina y el Caribe, mientras imponen categorías universales que borran la diferencia.
-Descolonizar la IA implica entonces recuperar el saber situado, reconocer la validez de conocimientos producidos desde comunidades indígenas, afrodescendientes, feministas y populares, y rechazar la idea de que la innovación solo fluye desde el Norte hacia el Sur.
-La IA como infraestructura de poder
-La inteligencia artificial no es solo software: es infraestructura material y política. Requiere centros de datos, energía, agua, minerales críticos y marcos regulatorios favorables. En este sentido, la IA se inscribe en las mismas lógicas extractivas que han marcado la historia de la región.
-Como señala Maristella Svampa, las infraestructuras contemporáneas reproducen formas de despojo cuando se imponen sin control democrático ni consideración por los territorios. La IA, desplegada sin soberanía tecnológica, refuerza la dependencia económica, profundiza asimetrías y consolida nuevas formas de subordinación digital.
-Pensar la IA como infraestructura de poder permite entender que sus impactos no son solo técnicos, sino sociales, ambientales y políticos, y que afectan de manera desigual a quienes ya han sido históricamente marginados.
-Justicia algorítmica y autodeterminación regional
-Frente a este escenario, las autoras feministas y decoloniales del Caribe y América Latina proponen ir más allá de la “ética de la IA” entendida como checklist técnico. Yuderkys Espinosa Miñoso y Ochy Curiel han insistido en que no puede haber justicia sin cuestionar las estructuras coloniales, raciales y patriarcales que organizan el conocimiento y el poder.
-Aplicado a la IA, esto implica:
-    • reconocer que los sistemas algorítmicos afectan de forma desproporcionada a mujeres, personas LGBTIQ+, pueblos indígenas y comunidades racializadas;
-    • rechazar soluciones tecnológicas que “corrigen sesgos” sin transformar las estructuras que los producen;
-    • y avanzar hacia una justicia algorítmica basada en la autodeterminación de los pueblos, la soberanía de datos y la participación comunitaria real.
-Descolonizar la IA no significa rechazar la tecnología, sino reapropiarla políticamente, disputar su sentido y reorientarla hacia la defensa de los derechos humanos y la justicia social en la región.
-
+Ejes conceptuales
+    • Colonialidad tecnológica vs mito de neutralidad técnica
+    • IA como infraestructura de poder
+    • Tecnología como sistema político, no solo técnico
+    • Justicia algorítmica
+    • Autodeterminación regional
+Aportes desde América Latina
+    • Boaventura de Sousa Santos
+        ◦ epistemologías del Sur
+        ◦ ecología de saberes
+    • Paola Ricaurte (México)
+        ◦ colonialismo de datos
+        ◦ crítica a la neutralidad tecnológica
+    • Yuderkys Espinosa Miñoso (Caribe)
+        ◦ crítica feminista decolonial
+        ◦ poder, raza, género y tecnología
+    • Colectivos latinoamericanos
+        ◦ Sursiendo (México)
+        ◦ Coding Rights (Brasil)
+Conceptos clave
+    • Colonialismo digital
+    • Colonialidad del saber
+    • Infraestructura como poder
+    • Descentramiento del Norte Global
 
 🟨 Semana 2 — ¿Cómo identificar IA colonial?
 Capítulo 2: Señales técnicas, políticas y sociales
-Si descolonizar la IA es una tarea política y técnica, identificar la IA colonial es el primer paso práctico. En América Latina y el Caribe, muchos sistemas de inteligencia artificial no se presentan explícitamente como herramientas de control o exclusión. Al contrario, suelen introducirse bajo discursos de eficiencia, modernización o innovación pública. Sin embargo, sus efectos materiales revelan patrones claros de colonialidad tecnológica.
-Este capítulo propone criterios concretos para diagnosticar cuándo un sistema de IA reproduce desigualdades estructurales, concentraciones de poder y exclusiones históricas.
-
-1. Señales técnicas: cuando los datos ya vienen torcidos
-Sesgos en datos: históricos y técnicos
-Una de las señales más claras de IA colonial es el sesgo en los datos de entrenamiento. Estos sesgos no son errores accidentales, sino el reflejo de estructuras sociales desiguales.
-    • Sesgo histórico: ocurre cuando los datos reproducen discriminaciones pasadas (raciales, de género, territoriales o de clase). Cuando estos datos se utilizan en sistemas de alto impacto, como justicia, seguridad o políticas sociales, la IA automatiza la desigualdad.
-    • Sesgo técnico: surge de decisiones metodológicas durante la recolección, limpieza o selección de datos, como muestreos incompletos o proxies discriminatorios (por ejemplo, código postal como sustituto de nivel socioeconómico).
-En Chile, el Registro Social de Hogares utilizó datos administrativos que excluyeron a personas trans y a convivientes del mismo sexo durante la pandemia, dejándolas fuera de ayudas estatales. El problema no fue solo administrativo: fue algorítmico y estructural.
-En Colombia, el sistema SISBÉN IV ha sido criticado por codificar desigualdades históricas de clase y territorio, con escasos mecanismos de apelación humana para las personas afectadas.
-
-2. Sesgo lingüístico digital: quién puede “hablar” con la IA
-Otra señal técnica clave para identificar la colonialidad algorítmica es el sesgo lingüístico digital. Aunque muchos modelos de inteligencia artificial declaran incluir el “español” entre sus lenguas de funcionamiento, esto no implica que representen de manera justa la diversidad lingüística de América Latina y el Caribe. En la práctica, la mayoría de estos sistemas operan sobre una versión estandarizada del idioma, definida y validada desde el Norte Global, que invisibiliza las particularidades culturales, territoriales y sociales de la región.
-Los modelos de lenguaje tienden a privilegiar el español normativo, subrepresentando las variantes regionales y locales, y excluyendo casi por completo las lenguas indígenas y cooficiales. Esta jerarquización lingüística no es un efecto colateral menor, sino una decisión estructural que determina quién puede interactuar con la tecnología en condiciones de igualdad y quién queda sistemáticamente fuera de sus beneficios.
-El impacto de este sesgo es doble. Por un lado, las personas y comunidades que no dominan el idioma hegemónico enfrentan barreras reales para acceder a servicios digitales, información pública o sistemas automatizados de toma de decisiones. Por otro, los saberes, cosmovisiones y formas de conocimiento expresadas en lenguas no dominantes quedan excluidas de los procesos de entrenamiento de la IA, reforzando una forma de epistemicidio digital. En este sentido, la colonialidad del lenguaje en la IA no es únicamente técnica: es profundamente epistémica, y reproduce relaciones históricas de poder sobre quién puede “hablar”, ser escuchado y reconocido por la tecnología.
-
-3. Modelos importados sin competencia contextual
-América Latina y el Caribe son, en gran medida, consumidores netos de tecnologías de inteligencia artificial. Esto se traduce en la adopción de modelos desarrollados en otros contextos geopolíticos, económicos y culturales, que son implementados en la región sin procesos profundos de adaptación a las realidades locales. Lejos de ser neutrales, estos sistemas arrastran supuestos, prioridades y marcos de decisión definidos fuera del territorio en el que operan.
-Una inteligencia artificial de carácter colonial suele manifestarse a través del uso de modelos “off-the-shelf” que no incorporan ajustes culturales ni sociales, del desconocimiento del contexto territorial en su diseño y despliegue, y de una fuerte dependencia de infraestructuras, licencias propietarias y agendas tecnológicas externas. Estas condiciones limitan la capacidad de los actores locales para auditar, modificar o cuestionar el funcionamiento de los sistemas que afectan directamente a sus poblaciones.
-La ausencia de competencia contextual —entendida como una comprensión real y situada del entorno social, económico y político— convierte a estos modelos en instrumentos de imposición más que en herramientas orientadas a resolver problemas públicos. En este escenario, las decisiones tecnológicas se desplazan hacia centros de poder externos, mientras la región pierde capacidad de agencia, autonomía y soberanía tecnológica, reproduciendo dinámicas históricas de dependencia bajo una nueva forma de colonialidad digital.
-
-
-4. Señales políticas: concentración de poder y dependencia tecnológica
-Más allá del código y de los aspectos técnicos, la inteligencia artificial de carácter colonial puede identificarse observando quién diseña, controla y gobierna la tecnología. La colonialidad algorítmica se manifiesta cuando el poder de decisión se concentra en un número reducido de actores, generalmente grandes corporaciones tecnológicas transnacionales, mientras los Estados y las comunidades quedan relegados a un rol de usuarios pasivos de sistemas que no controlan ni comprenden plenamente.
-Una señal política central de esta dinámica es la proliferación de contratos opacos entre gobiernos y proveedores privados de tecnología, en los que los criterios de diseño, los modelos de datos y los mecanismos de toma de decisiones quedan protegidos por secretos comerciales. A esto se suma la ausencia de marcos éticos, normativos y regulatorios desarrollados desde contextos locales, lo que impide evaluar adecuadamente los impactos sociales, de género y territoriales de los sistemas automatizados. La dependencia de infraestructuras extranjeras para la provisión de servicios públicos críticos —como seguridad, bienestar social o identificación— profundiza aún más la pérdida de soberanía tecnológica y limita la capacidad estatal de garantizar derechos.
-En Argentina, organizaciones como DataGénero han documentado cómo la implementación de sistemas automatizados sin perspectiva de género ni transparencia puede profundizar desigualdades preexistentes en el diseño y la ejecución de políticas públicas. Estos sistemas, al operar sin mecanismos claros de rendición de cuentas, terminan reproduciendo sesgos estructurales que afectan de manera desproporcionada a mujeres y diversidades.
-En Brasil, el uso de tecnologías de reconocimiento facial ha evidenciado tasas de error significativamente más altas en la identificación de personas negras, lo que ha derivado en detenciones arbitrarias y en prácticas de vigilancia desproporcionada. En estos casos, la tecnología no solo falla desde el punto de vista técnico, sino que se convierte en un dispositivo que vulnera derechos fundamentales, refuerza lógicas raciales históricas y legitima nuevas formas de control y violencia estatal.
-
-5. Señales sociales: quién paga el costo de la automatización
-La inteligencia artificial de carácter colonial no afecta a todas las personas por igual. Sus impactos se distribuyen de manera profundamente desigual, reproduciendo y amplificando las jerarquías históricas de raza, género, clase y territorio. En América Latina y el Caribe, los efectos más dañinos de la automatización recaen de forma sistemática sobre pueblos indígenas, comunidades afrodescendientes, personas LGBTIQ+, así como sobre poblaciones rurales y empobrecidas que ya enfrentan múltiples barreras de acceso a derechos y servicios.
-Cuando un sistema automatizado genera exclusión persistente del acceso a programas sociales, incrementa la vigilancia sobre determinados cuerpos o territorios, o limita el ejercicio de derechos básicos como la identidad, la movilidad o la protección social, no se trata de errores aislados ni de fallas técnicas menores. Estos efectos constituyen señales sociales claras de colonialidad algorítmica, en las que la tecnología actúa como un nuevo mecanismo de selección, control y castigo sobre poblaciones históricamente marginadas.
-En este contexto, la pregunta central no debe ser si la inteligencia artificial funciona de manera eficiente o precisa en términos técnicos, sino para quién funciona, quién define sus criterios de éxito y quién asume los costos de sus decisiones. Analizar la automatización desde una perspectiva de justicia algorítmica implica desplazar el foco del rendimiento del sistema hacia sus impactos materiales y simbólicos, visibilizando a las personas y comunidades que quedan sistemáticamente fuera del diseño, la gobernanza y los beneficios de la tecnología.
-
-✔️ Checklist práctico: ¿estamos frente a IA colonial?
-Este checklist permite una evaluación inicial rápida:
-Datos
-    • ¿Los datos reflejan desigualdades históricas?
-    • ¿Incluyen diversidad racial, territorial, de género y lingüística?
-    • ¿Se utilizan proxies que puedan generar discriminación indirecta?
-Lenguaje
-    • ¿El sistema reconoce variantes locales del idioma?
-    • ¿Incluye o excluye lenguas indígenas?
-Modelo
-    • ¿Es importado sin adaptación profunda?
-    • ¿Existe competencia contextual en el equipo que lo implementa?
-Gobernanza
-    • ¿Quién controla la infraestructura y los datos?
-    • ¿Existen mecanismos de apelación y rendición de cuentas?
-    • ¿Hay participación real de comunidades afectadas?
-Impacto
-    • ¿El sistema produce exclusión, vigilancia o daño desproporcionado?
-    • ¿Refuerza desigualdades existentes?
-Si la mayoría de estas respuestas es afirmativa, no estamos ante un fallo técnico aislado, sino frente a un caso de IA colonial.
-
-Cierre 
-Identificar la IA colonial no busca frenar la innovación, sino repolitizarla. Sin diagnóstico no hay transformación posible. Este capítulo sienta las bases para el siguiente paso: cómo intervenir, rediseñar y gobernar la IA desde marcos de justicia, soberanía y autodeterminación regional, que será el foco de los próximos capítulos.
-
+Señales técnicas
+    • Sesgos en datos:
+        ◦ históricos
+        ◦ incompletos
+        ◦ no representativos
+    • Sesgo lingüístico digital
+        ◦ español estándar
+        ◦ exclusión de lenguas indígenas
+    • Modelos importados sin adaptación contextual
+    • Falta de auditabilidad
+Señales políticas
+    • Concentración de poder en Big Tech
+    • Contratos opacos Estado–empresa
+    • Ausencia de marcos éticos locales
+    • Dependencia de infraestructura extranjera
+Señales sociales
+    • Exclusión sistemática
+    • Sobre-vigilancia de poblaciones específicas
+    • Automatización sin mecanismos de reparación
+Checklist práctico
+    • ¿Quién diseñó el sistema?
+    • ¿Con qué datos?
+    • ¿Para quién funciona?
+    • ¿Quién puede auditarlo?
+    • ¿Quién asume responsabilidad?
+Casos regionales
+    • Argentina — DataGénero
+    • Brasil — reconocimiento facial
+    • Chile — automatización de beneficios
+    • Colombia — digitalización sin acceso rural
 
 🟧 Semana 3 — ¿A quién daña la IA colonial?
 Capítulo 3: Impactos desiguales y exclusión algorítmica
-La IA colonial no daña a todas las personas por igual. Al contrario: profundiza desigualdades preexistentes, amplificando relaciones históricas de dominación basadas en raza, género, clase, sexualidad y territorio. En América Latina y el Caribe, estos impactos no son hipotéticos: ya están ocurriendo en sistemas de vigilancia, políticas sociales, control migratorio y servicios públicos digitalizados.
-Este capítulo analiza quiénes pagan el costo de la automatización colonial y cómo esos daños se manifiestan tanto en el plano material como en el simbólico.
-
-1. Pueblos indígenas y afrodescendientes: datos sin consentimiento, vigilancia sin protección
-Uno de los impactos más graves de la inteligencia artificial de carácter colonial recae sobre los pueblos indígenas y las comunidades afrodescendientes, históricamente tratadas como objetos de extracción. Si en el pasado esta lógica se expresó a través del despojo de territorios y recursos naturales, hoy se reproduce mediante la extracción masiva de datos, conocimientos, imágenes y prácticas culturales, sin reconocimiento ni control por parte de las comunidades afectadas.
-En el plano material, estos daños se manifiestan a través de la recolección de datos sin consentimiento libre, previo e informado, así como del uso de imágenes, voces e información cultural para entrenar modelos de inteligencia artificial sin mecanismos de retorno, beneficio o gobernanza comunitaria. A esto se suma la implementación de tecnologías de vigilancia —como drones, sistemas biométricos o reconocimiento facial— en territorios indígenas, muchas veces justificadas bajo discursos de “seguridad”, “control fronterizo” o “protección ambiental”, pero sin garantías efectivas de derechos ni participación local.
-En países como Brasil, por ejemplo, se han documentado despliegues de tecnologías de monitoreo en territorios indígenas sin marcos claros de gobernanza comunitaria, mientras que esas mismas comunidades continúan enfrentando carencias estructurales en conectividad, acceso a servicios de salud digital y provisión de servicios básicos. Esta asimetría evidencia que la tecnología no se introduce para fortalecer derechos, sino para ampliar capacidades de control sobre territorios y cuerpos históricamente marginados.
-Los daños no son únicamente materiales, sino también profundamente simbólicos y epistémicos. Los sistemas de inteligencia artificial suelen invisibilizar los saberes indígenas, reduciendo formas complejas de conocimiento a categorías técnicas irrelevantes o directamente excluyéndolas de los procesos de diseño. Al mismo tiempo, las identidades colectivas son traducidas en “variables de riesgo”, métricas de vulnerabilidad o perfiles de vigilancia, reforzando estigmas históricos. De este modo, la colonialidad epistémica se perpetúa: los pueblos indígenas y afrodescendientes son utilizados como fuente de datos, pero permanecen excluidos como sujetos de decisión, definición y control sobre las tecnologías que impactan directamente en sus vidas.
-
-2. Comunidades LGBTIQ+: sobre-vigiladas y sub-protegidas
-Las personas LGBTIQ+ enfrentan una paradoja central dentro de la inteligencia artificial de carácter colonial: son poblaciones intensamente vigiladas por los sistemas automatizados, pero al mismo tiempo permanecen insuficientemente protegidas frente a la discriminación, la exclusión y la violencia institucional. Esta contradicción revela cómo la IA no opera como una herramienta neutral, sino como un dispositivo que reproduce jerarquías morales, normativas y políticas preexistentes.
-En el plano material, los daños se expresan en sistemas de moderación automática de contenidos que censuran de manera desproporcionada publicaciones vinculadas a educación sexual, activismo LGBTIQ+, lenguaje reapropiado o expresiones identitarias no normativas, mientras permiten la circulación de discursos de odio y violencia simbólica. Esta asimetría no es accidental: responde a modelos entrenados con marcos morales conservadores y datasets que patologizan la diversidad sexual y de género.
-Asimismo, muchas bases de datos estatales y sistemas administrativos no reconocen identidades trans, no binarias ni configuraciones familiares diversas. Esta omisión técnica tiene consecuencias materiales directas, ya que excluye a estas poblaciones del acceso a programas sociales, servicios de salud, empleo y mecanismos de protección estatal. A ello se suma el riesgo creciente del uso de sistemas de inteligencia artificial para la supuesta “detección” de orientación sexual o identidad de género, una práctica sin sustento científico y con un alto potencial de persecución, criminalización y violencia, especialmente en contextos de fragilidad democrática o avance de discursos autoritarios.
-En Argentina, colectivos feministas y de diversidad han documentado cómo la ausencia de variables relacionadas con la orientación sexual y la identidad de género (OSIG) en sistemas públicos produce exclusión sistemática en políticas de salud, empleo y protección social. La falta de diseño inclusivo no solo invisibiliza a estas poblaciones, sino que reproduce activamente desigualdades estructurales a través de decisiones automatizadas.
-Los daños también operan en un nivel simbólico profundo. Los sistemas de IA reproducen y refuerzan la cis-heteronormatividad como norma, presentándola como el estándar neutral a partir del cual se definen desviaciones. Esto da lugar a procesos de patologización digital de identidades disidentes y al refuerzo de narrativas que asocian la diversidad sexual y de género con riesgo, desviación o amenaza. De este modo, la inteligencia artificial no solo excluye, sino que legitima simbólicamente formas contemporáneas de violencia estructural contra las comunidades LGBTIQ+.
-
-3. Mujeres y programas sociales: automatizar la pobreza
-La automatización de las políticas sociales ha tenido un impacto particularmente severo sobre las mujeres, y de manera aún más profunda sobre aquellas que se encuentran en situaciones de pobreza, pertenecen a grupos racializados o son jefas de hogar. Lejos de corregir desigualdades estructurales, muchos sistemas automatizados de gestión social han tendido a reproducirlas y amplificarlas, incorporando en su diseño supuestos morales y económicos que individualizan la pobreza y despolitizan sus causas.
-En el plano material, los daños se manifiestan a través de sistemas de focalización que clasifican a las personas según categorías de “riesgo” o “merecimiento” basadas en datos incompletos, desactualizados o atravesados por sesgos históricos de género, clase y raza. Estas herramientas determinan el acceso a beneficios sociales mediante lógicas algorítmicas opacas que, con frecuencia, generan exclusiones automáticas sin ofrecer mecanismos claros, accesibles y efectivos de apelación o revisión humana. Como resultado, errores técnicos o inconsistencias en los datos pueden traducirse directamente en la pérdida de ingresos, alimentos o servicios básicos.
-Además, las mujeres se encuentran sobrerrepresentadas en bases de datos de vigilancia social, especialmente en programas que monitorean el cumplimiento de condicionalidades asociadas a transferencias monetarias o ayudas estatales. Esta sobreexposición refuerza un modelo de control que coloca a las mujeres —en particular a las madres— como principales responsables del bienestar familiar, sometiendo su vida cotidiana a un escrutinio permanente por parte del Estado.
-En Chile, durante la pandemia de COVID-19, los sistemas digitales diseñados para el acceso a ayudas estatales dejaron fuera a miles de mujeres debido a modelos familiares normativos y a la utilización de datos desactualizados. Entre las personas excluidas se encontraban mujeres trans y mujeres que no encajaban en las configuraciones familiares tradicionales previstas por los algoritmos, lo que evidenció cómo la automatización puede operar como un mecanismo de exclusión estructural cuando no incorpora perspectivas de género y diversidad.
-En el plano simbólico, estos sistemas contribuyen a la construcción de la pobreza como una falla individual, desplazando la responsabilidad de las condiciones estructurales hacia las personas afectadas. Se refuerza así el estereotipo de la “mujer asistida” como objeto de control, sospecha y disciplinamiento, legitimando la intervención constante sobre su vida privada. De este modo, la vigilancia sobre la vida cotidiana femenina se normaliza como una práctica técnica y neutral, cuando en realidad constituye una forma contemporánea de violencia institucional mediada por algoritmos.
-
-4. Territorios rurales y pobreza digital: exclusión por diseño
-La colonialidad algorítmica también se manifiesta a través del abandono digital. Los territorios rurales y periféricos suelen quedar sistemáticamente fuera de los procesos de diseño, entrenamiento y evaluación de los sistemas de inteligencia artificial, lo que produce tecnologías pensadas desde y para contextos urbanos. Esta exclusión no es accidental, sino el resultado de modelos de desarrollo tecnológico que priorizan la eficiencia, la escalabilidad y la rentabilidad sobre la diversidad territorial y las condiciones reales de vida de amplios sectores de la población.
-En el plano material, los daños se expresan en sistemas automatizados que asumen de manera implícita la existencia de conectividad constante, disponibilidad de dispositivos adecuados y altos niveles de alfabetización digital. Estas suposiciones dejan fuera a personas que no cuentan con acceso regular a internet, que comparten dispositivos, o que carecen de identificación digital formal, convirtiendo el acceso a derechos básicos en un privilegio condicionado por la infraestructura tecnológica. Asimismo, muchos modelos de IA son entrenados principalmente con datos urbanos, lo que provoca fallos sistemáticos cuando se aplican en contextos rurales, donde las dinámicas económicas, sociales y territoriales difieren significativamente.
-En Colombia, comunidades rurales han denunciado barreras crecientes para acceder a servicios públicos que han sido digitalizados de manera acelerada. En estos casos, la automatización ha sustituido oficinas presenciales y mecanismos de atención directa sin ofrecer alternativas reales y accesibles para quienes viven en zonas alejadas, profundizando la exclusión en lugar de reducirla. La digitalización, presentada como modernización, termina operando como un filtro que expulsa a quienes no encajan en el perfil del “usuario ideal” previsto por los sistemas.
-En el plano simbólico, esta dinámica refuerza la construcción de lo rural como sinónimo de atraso, ineficiencia o resistencia al progreso tecnológico. Las economías locales, los saberes territoriales y las formas de vida no urbanas quedan invisibilizadas o desvalorizadas, al no ser consideradas relevantes para el diseño de los sistemas automatizados. De este modo, la IA contribuye a profundizar la brecha centro–periferia, reproduciendo desigualdades históricas bajo la apariencia de neutralidad técnica y modernización digital.
-
-5. Vigilancia, reconocimiento facial y control social
-Uno de los campos más críticos en los que se manifiesta la colonialidad algorítmica es el uso de tecnologías de reconocimiento facial y sistemas predictivos en el ámbito de la seguridad pública. Estas herramientas suelen presentarse como soluciones objetivas y eficientes para la prevención del delito, pero en la práctica reproducen y amplifican desigualdades raciales, sociales y territoriales preexistentes.
-Casos documentados en distintos países de la región muestran que los sistemas de reconocimiento facial presentan tasas de error significativamente más altas en personas negras e indígenas, lo que incrementa el riesgo de identificaciones incorrectas y falsas coincidencias. Estas fallas técnicas, lejos de ser neutrales, se traducen en detenciones arbitrarias basadas exclusivamente en decisiones algorítmicas, sin garantías adecuadas de verificación humana, debido proceso o mecanismos efectivos de reparación.
-Además, el despliegue de estas tecnologías se concentra de manera desproporcionada en barrios empobrecidos y racializados, reforzando lógicas históricas de vigilancia selectiva y control social. En este contexto, la IA colonial no solo excluye del acceso a derechos, sino que criminaliza activamente a determinados cuerpos y territorios. El daño producido es directo, tanto físico como psicológico, y contribuye a erosionar la confianza en las instituciones públicas, profundizando la distancia entre el Estado y las comunidades que afirma proteger.
-
-Daños materiales y simbólicos: una distinción clave
-Daños materiales	Daños simbólicos
-Exclusión de servicios	Invisibilización
-Vigilancia y control	Estigmatización
-Pérdida de derechos	Normalización de la desigualdad
-Criminalización	Colonialismo epistémico
-Ambos tipos de daño se refuerzan mutuamente. La IA colonial no es neutral porque opera dentro de estructuras de poder desiguales.
-
-Cierre
-Comprender a quién daña la IA colonial es esencial para justificar la urgencia de alternativas. Estos impactos no son efectos secundarios inevitables: son el resultado de decisiones políticas, técnicas y económicas.
-El siguiente paso no es solo criticar, sino transformar. En el próximo capítulo abordaremos cómo empezar a descolonizar la IA en la práctica, a través de herramientas concretas, gobernanza participativa y marcos situados desde América Latina y el Caribe.
-
+Poblaciones afectadas
+    • Pueblos indígenas
+    • Comunidades afrodescendientes
+    • Comunidades LGBTIQ+
+    • Mujeres pobres y jefas de hogar
+    • Territorios rurales y periféricos
+Daños materiales
+    • Vigilancia desproporcionada
+    • Exclusión de servicios públicos
+    • Criminalización algorítmica
+    • Automatización de la pobreza
+Daños simbólicos
+    • Invisibilización de saberes
+    • Patologización de identidades
+    • Normalización de la vigilancia
+    • Reproducción de jerarquías coloniales
+Tecnologías críticas
+    • Reconocimiento facial
+    • Sistemas predictivos
+    • Focalización de programas sociales
+    • Moderación automática de contenidos
 
 🟦 Semana 4 — ¿Qué proponen desde América Latina?
 Capítulo 4: Marcos, metodologías y alternativas regionales
-Frente a los riesgos y daños de la IA colonial, América Latina no parte de cero. Desde la región —y desde el Sur Global en general— existen propuestas conceptuales, metodológicas y políticas que buscan transformar la IA en una herramienta para la justicia social, la autodeterminación y la protección de derechos.
-Este capítulo reúne marcos desarrollados desde y para la región, que permiten pasar de la crítica a la acción: no solo mitigar daños, sino redistribuir poder tecnológico.
-
-1. Epistemologías propias: pensar la IA desde el Sur
-Descolonizar la inteligencia artificial implica, antes que nada, descolonizar los marcos de conocimiento que la hacen posible. Las epistemologías dominantes que hoy orientan el diseño y despliegue de sistemas de IA —de corte positivista, tecnocrático y eurocéntrico— tienden a presentar la tecnología como neutral, universal y desvinculada de los contextos históricos y políticos en los que se produce. Esta mirada invisibiliza las relaciones de poder que atraviesan los procesos técnicos y naturaliza modelos desarrollados desde el Norte Global como estándares incuestionables.
-Desde América Latina y el Caribe, múltiples autoras, colectivos y movimientos proponen un giro epistémico que cuestiona de raíz esta supuesta neutralidad. Parten del reconocimiento de que todo sistema técnico incorpora valores, prioridades y visiones del mundo, y que la IA no es una excepción, sino una infraestructura profundamente política. En esta perspectiva, la tecnología se sitúa en contextos históricos marcados por el colonialismo, el extractivismo de recursos —y hoy de datos— y la reproducción de desigualdades sociales, raciales y de género.
-Este enfoque también reivindica la legitimidad de los saberes comunitarios, indígenas, feministas y populares como fuentes válidas de conocimiento técnico y ético. Lejos de ser “complementos” culturales, estos saberes aportan criterios fundamentales para pensar el diseño, el uso y la gobernanza de la IA desde perspectivas situadas, relacionales y orientadas al cuidado colectivo. Incorporarlos implica disputar quién define los problemas que la tecnología debe resolver y bajo qué principios se toman esas decisiones.
-Al romper con la idea de que la región debe limitarse a adaptar modelos importados, las epistemologías propias proponen producir marcos conceptuales, metodológicos y normativos desde el Sur. Estos marcos buscan estar alineados con las realidades locales, las memorias históricas y las necesidades sociales concretas de América Latina, sentando las bases para una inteligencia artificial que no reproduzca la colonialidad tecnológica, sino que contribuya a procesos de autodeterminación, justicia social y soberanía regional.
-
-2. Gobernanza de datos con enfoque comunitario: Principios CARE
-Uno de los aportes más significativos provenientes del Sur Global en el debate sobre descolonización de la inteligencia artificial es la formulación de los Principios CARE para la gobernanza de datos, especialmente en contextos indígenas, comunitarios y colectivos. Estos principios emergen como una respuesta crítica a los modelos dominantes de gestión de datos, que históricamente han operado bajo lógicas extractivas y han tratado la información como un recurso disponible para su explotación, sin considerar los derechos, intereses ni cosmovisiones de las comunidades de origen.
-Los Principios CARE —Control, Autoridad, Responsabilidad y Ética— introducen un cambio profundo en la manera de concebir los datos y su uso. El principio de Control afirma que las comunidades deben tener capacidad real de decisión sobre cómo se recolectan, utilizan, comparten y transforman sus datos, rompiendo con la práctica habitual de apropiación unilateral por parte de Estados, empresas o centros de investigación. La Autoridad reconoce la soberanía colectiva sobre la información, desafiando los marcos jurídicos que priorizan la propiedad individual o corporativa y negando la dimensión colectiva del conocimiento.
-El principio de Responsabilidad establece que quienes acceden y utilizan datos comunitarios deben rendir cuentas por los impactos de sus prácticas, tanto técnicos como sociales, culturales y políticos. Esto implica mecanismos claros de transparencia, reparación y supervisión, y desplaza la carga ética desde las comunidades afectadas hacia los actores que desarrollan y despliegan tecnologías basadas en datos. Finalmente, el principio de Ética exige que el uso de los datos responda a valores comunitarios definidos localmente y que no genere daño, reconociendo que la legitimidad de una práctica tecnológica no puede evaluarse únicamente desde criterios técnicos o de eficiencia.
-En contraste con los principios FAIR —Findable, Accessible, Interoperable y Reusable— que priorizan la eficiencia, la apertura y la reutilización de los datos, los Principios CARE colocan en el centro a las personas y las comunidades. Mientras FAIR ha sido ampliamente adoptado en entornos científicos y tecnológicos del Norte Global, su aplicación acrítica en contextos del Sur ha contribuido, en muchos casos, a nuevas formas de extracción de datos y conocimiento sin retorno ni consentimiento colectivo.
-Desde una perspectiva decolonial, CARE no busca reemplazar completamente a FAIR, sino corregir sus límites y subordinarlos a un marco de derechos y autodeterminación. La adopción de los Principios CARE obliga a repensar la innovación tecnológica como un proceso que debe estar al servicio de las comunidades y no al revés, estableciendo que la soberanía de los datos y el respeto a los valores colectivos son condiciones previas para cualquier desarrollo legítimo de inteligencia artificial en América Latina y el Caribe.
-
-3. Justicia lingüística: IA que hable nuestras lenguas
-Otro eje central de las propuestas impulsadas desde América Latina y el Caribe es la justicia lingüística. En la actualidad, la mayoría de los sistemas de inteligencia artificial se entrenan predominantemente en inglés y, en menor medida, en versiones estandarizadas del español y el portugués. Este sesgo lingüístico deja sistemáticamente fuera a una enorme diversidad de lenguas indígenas, variantes regionales, registros locales y formas no normativas de expresión que forman parte de la vida cotidiana de millones de personas en la región.
-Esta exclusión no puede entenderse únicamente como una limitación técnica o una cuestión de escala de datos. Se trata de una forma de exclusión epistémica y política: cuando una lengua no está presente en los datos de entrenamiento, simplemente no existe para el sistema. Como consecuencia, quienes hablan esas lenguas quedan fuera de servicios digitales, sistemas de información, procesos automatizados y espacios de toma de decisiones mediados por tecnología. Al mismo tiempo, los saberes, cosmovisiones y formas de conocimiento que se transmiten a través de esas lenguas permanecen invisibilizados o son descartados como irrelevantes para la construcción de sistemas de IA.
-Frente a este escenario, las propuestas desde América Latina apuntan a revertir esta lógica mediante acciones concretas. Entre ellas se encuentra el financiamiento público y comunitario para la creación de conjuntos de datos en lenguas indígenas y minoritarias, así como el desarrollo de modelos de lenguaje locales que respondan a contextos culturales específicos. Estas iniciativas buscan romper con la dependencia de modelos globales que reproducen jerarquías lingüísticas y abrir espacio a infraestructuras tecnológicas verdaderamente plurilingües.
-Asimismo, se subraya la necesidad de evitar prácticas de extracción lingüística sin retorno comunitario, en las que voces, textos y expresiones culturales son utilizados para entrenar sistemas comerciales sin consentimiento ni beneficios para las comunidades de origen. Reconocer la lengua como un derecho cultural y tecnológico implica garantizar que su uso en sistemas de IA se base en principios de respeto, reciprocidad y autodeterminación colectiva.
-En este marco, la inteligencia artificial puede transformarse en una herramienta para la revitalización cultural, el fortalecimiento de lenguas en riesgo y la ampliación de derechos, en lugar de convertirse en un nuevo vector de borramiento y homogeneización. Descolonizar la IA desde la justicia lingüística significa, en última instancia, permitir que las tecnologías también hablen nuestras lenguas y reconozcan la diversidad de mundos que estas expresan.
-
-4. Diseño participativo y co-creación: cambiar quién decide
-Una de las críticas más contundentes a la inteligencia artificial de carácter colonial es que las personas y comunidades directamente afectadas por estos sistemas rara vez participan en las decisiones sobre su diseño, implementación y evaluación. En muchos casos, la IA se introduce como una solución técnica cerrada, definida por empresas proveedoras o por equipos gubernamentales altamente especializados, sin que quienes viven las consecuencias cotidianas de esas tecnologías tengan voz ni capacidad de incidencia. Esta exclusión reproduce una lógica histórica de imposición, en la que las decisiones se toman desde arriba y desde fuera, reforzando relaciones asimétricas de poder.
-Frente a este modelo, desde América Latina y el Caribe se propone institucionalizar metodologías que transformen radicalmente quién decide y cómo se toman las decisiones tecnológicas. Entre estas propuestas destacan el diseño participativo, la co-creación con comunidades, los laboratorios ciudadanos y los enfoques de innovación pública abierta. Estas metodologías parten del reconocimiento de que el conocimiento relevante para diseñar sistemas de IA no reside únicamente en la experticia técnica, sino también en las experiencias, saberes y prácticas de las personas que interactúan con esos sistemas en contextos concretos.
-La co-creación, en este sentido, no puede reducirse a instancias de consulta simbólica, talleres informativos o procesos de validación ex post. Implica un cambio estructural en la distribución del poder dentro del ciclo de vida de la tecnología. Las comunidades, organizaciones sociales y personas usuarias deben participar desde el inicio en la definición de los problemas que se busca resolver, evitando que la IA se aplique a cuestiones mal formuladas o desconectadas de las necesidades reales del territorio. Asimismo, deben involucrarse en el diseño de indicadores, métricas y criterios de evaluación, de modo que los sistemas respondan a valores sociales y no solo a parámetros de eficiencia técnica.
-Un elemento central de este enfoque es el reconocimiento del derecho a modificar, detener o vetar sistemas que generen daño, exclusión o efectos no deseados. La participación significativa supone que las comunidades tengan poder real de decisión, y no solo un rol consultivo, así como un lugar en los procesos de evaluación continua, auditoría y ajuste de los sistemas a lo largo del tiempo. Esto permite identificar impactos imprevistos, corregir sesgos emergentes y garantizar que la tecnología se mantenga alineada con los derechos y prioridades colectivas.
-Al adoptar estas metodologías, se desplaza el modelo vertical tradicional —basado en la relación Estado–empresa–usuario— hacia formas de gobernanza distribuida, más democráticas y situadas. En lugar de tecnologías impuestas, se construyen sistemas negociados, contextualizados y corresponsables, donde la inteligencia artificial deja de ser una herramienta de control y pasa a convertirse en un proceso colectivo orientado al bienestar, la justicia social y la autodeterminación tecnológica.
-
-5. Evaluaciones de Impacto Algorítmico situadas
-Para traducir los principios de justicia algorítmica y descolonización de la tecnología en políticas públicas concretas, diversos actores en América Latina y el Caribe han comenzado a experimentar con Evaluaciones de Impacto Algorítmico (AIA) adaptadas a los contextos sociales, políticos y territoriales de la región. Estas evaluaciones surgen como una respuesta crítica a los modelos importados que, en muchos casos, se limitan a listas de verificación técnicas o a marcos abstractos de cumplimiento, sin atender a las desigualdades estructurales propias de los países del Sur Global.
-A diferencia de estos enfoques estandarizados, las AIA situadas buscan analizar los efectos reales de los sistemas de inteligencia artificial sobre distintos grupos sociales, considerando de manera explícita variables como género, raza, clase, territorio y orientación sexual e identidad de género (OSIG). Este enfoque permite visibilizar impactos diferenciados que suelen quedar ocultos en evaluaciones genéricas, así como identificar riesgos específicos de exclusión, vigilancia intensificada y reproducción de discriminaciones históricas. La evaluación deja de centrarse únicamente en el rendimiento técnico del sistema y se desplaza hacia sus consecuencias sociales y políticas.
-Un componente central de las AIA situadas es la exigencia de explicabilidad y auditabilidad de los sistemas automatizados. Esto implica que las decisiones algorítmicas deben poder ser comprendidas, cuestionadas y revisadas por las personas afectadas, por organismos de control y por actores independientes. La opacidad técnica, común en muchos sistemas comerciales o propietarios, se reconoce así como un riesgo democrático y de derechos humanos que debe ser activamente mitigado mediante obligaciones regulatorias claras.
-Asimismo, estas evaluaciones incorporan la participación de la sociedad civil organizada, la academia crítica y, en algunos casos, de comunidades directamente afectadas por los sistemas evaluados. Esta participación amplía el marco de análisis, introduce perspectivas no técnicas y fortalece la legitimidad de los procesos de evaluación. En la región, organismos como el Banco Interamericano de Desarrollo (BID), en colaboración con laboratorios ciudadanos y organizaciones sociales, han impulsado herramientas y metodologías iniciales de AIA que pueden ser apropiadas, adaptadas y fortalecidas por los Estados nacionales y locales.
-La clave de las Evaluaciones de Impacto Algorítmico situadas no reside únicamente en la producción de diagnósticos, sino en la capacidad efectiva de actuar sobre sus resultados. Evaluar sin consecuencias reproduce una lógica de simulación ética. Por el contrario, un enfoque comprometido con los derechos humanos exige que los hallazgos de las AIA habiliten decisiones concretas, incluyendo la modificación, suspensión o prohibición de sistemas que vulneren derechos fundamentales. De este modo, las AIA se consolidan como una herramienta política y regulatoria esencial para disputar el sentido y los límites de la inteligencia artificial en la región.
-
-6. Alternativas en construcción: un campo en disputa
-Las propuestas desde América Latina demuestran que el futuro de la IA no está cerrado. Es un campo Las propuestas que emergen desde América Latina y el Caribe muestran con claridad que el futuro de la inteligencia artificial no está predeterminado ni cerrado. Lejos de ser una evolución técnica inevitable, la IA constituye un campo en disputa política, social, técnica y cultural, en el que se enfrentan distintos proyectos de sociedad, modelos de desarrollo y concepciones sobre el poder y los derechos. Reconocer esta disputa es fundamental para desmontar la idea de que la región solo puede adoptar pasivamente tecnologías diseñadas en otros contextos.
-En este escenario, comienzan a consolidarse alternativas que desafían la hegemonía tecnológica del Norte Global. Entre ellas se encuentran marcos regulatorios que incorporan explícitamente un enfoque de derechos humanos, capaces de establecer límites claros al uso de sistemas automatizados en ámbitos sensibles como la seguridad, el bienestar social o la justicia. Estos marcos buscan garantizar la transparencia, la rendición de cuentas y la protección de derechos fundamentales, situando a las personas y comunidades en el centro de la regulación tecnológica.
-Paralelamente, se han fortalecido redes de investigación feminista, decolonial y crítica que producen conocimiento situado sobre inteligencia artificial desde el Sur. Estas redes cuestionan los supuestos universales de la tecnología, visibilizan los impactos diferenciados de los sistemas automatizados y proponen metodologías alternativas para su diseño, evaluación y gobernanza. Su trabajo demuestra que es posible generar teoría, evidencia y práctica tecnológica desde marcos epistemológicos propios.
-Otra línea clave de acción es el impulso de infraestructuras públicas y comunitarias, orientadas a reducir la dependencia de plataformas y proveedores privados transnacionales. Estas iniciativas buscan recuperar la capacidad estatal y colectiva para gestionar datos, sistemas y redes críticas, fortaleciendo la soberanía tecnológica y ampliando el acceso equitativo a servicios digitales. En este proceso, las alianzas entre Estado, sociedad civil y academia crítica resultan fundamentales para construir capacidades sostenibles y democráticas.
-Estas alternativas no persiguen “alcanzar” o imitar al Norte Global dentro de las mismas lógicas de competencia y extractivismo tecnológico. Por el contrario, su objetivo es descentrar ese modelo, cuestionar su pretendida universalidad y abrir espacio a múltiples formas de pensar, diseñar y gobernar la inteligencia artificial. En este sentido, descolonizar la IA no implica rechazar la tecnología, sino disputar activamente su sentido, sus usos y sus beneficiarios desde las realidades y aspiraciones del Sur Global.
-
-Cierre 
-Descolonizar la inteligencia artificial no significa rechazar la tecnología ni situarse en una postura de negación frente a la innovación. Por el contrario, implica reapropiarla de manera crítica, política y colectiva, cuestionando quién la diseña, para qué fines se utiliza y a costa de quiénes se despliega. Las propuestas que emergen desde América Latina y el Caribe demuestran que existen alternativas concretas para construir sistemas de IA alineados con los derechos humanos, las realidades territoriales y las necesidades sociales de la región.
-Estas propuestas apuntan a desarrollar tecnologías que respeten los derechos fundamentales, que reflejen la diversidad cultural, lingüística y social de los contextos en los que operan, y que contribuyan a redistribuir el poder actualmente concentrado en pocos actores tecnológicos globales. En lugar de reproducir jerarquías históricas, una IA situada y decolonial puede convertirse en una herramienta para fortalecer la democracia, ampliar la participación ciudadana y reforzar la capacidad de decisión de comunidades, Estados y organizaciones sociales.
-Este cierre sintetiza el recorrido conceptual del documento y, al mismo tiempo, abre una invitación clara y urgente: pasar de la reflexión a la acción colectiva. Descolonizar la IA requiere transformar estos marcos teóricos en prácticas concretas, políticas públicas, procesos de incidencia y formas de organización que disputen el rumbo de la tecnología. El desafío no es menor, pero tampoco lo es la oportunidad de construir una inteligencia artificial al servicio de la justicia social, la autodeterminación y el bien común.
+Epistemologías propias
+    • Pensar IA desde el Sur
+    • Saberes comunitarios, indígenas y feministas
+    • Producción de marcos teóricos regionales
+Gobernanza de datos
+    • Principios CARE
+        ◦ Control
+        ◦ Autoridad
+        ◦ Responsabilidad
+        ◦ Ética
+    • CARE vs FAIR
+    • Protocolos comunitarios
+Justicia lingüística
+    • Datasets en lenguas indígenas
+    • Modelos de lenguaje locales
+    • Lengua como derecho cultural y tecnológico
+Diseño participativo
+    • Co-creación real
+    • Laboratorios ciudadanos
+    • Innovación pública abierta
+    • Poder decisional comunitario
+Evaluaciones de Impacto Algorítmico (AIA)
+    • Enfoque situado
+    • Variables:
+        ◦ género
+        ◦ raza
+        ◦ territorio
+        ◦ OSIG
+    • Aportes:
+        ◦ BID
+        ◦ sociedad civil
+        ◦ academia crítica
 
 🟪 Semana 5 — ¿Cómo empezar a descolonizar la IA?
 Capítulo 5: De la crítica a la acción
-Después del diagnóstico y de la revisión de marcos y propuestas regionales, la pregunta inevitable es cómo empezar. Descolonizar la IA no requiere esperar a tecnologías futuras ni marcos ideales: implica decisiones concretas en el presente, en proyectos, políticas públicas, organizaciones y comunidades.
-Este capítulo propone un conjunto de entradas prácticas para pasar de la crítica a la acción situada.
+Qué mirar / preguntar / medir
+    • Impactos diferenciados
+    • Riesgos estructurales
+    • Mecanismos de reparación
+Gobernanza distribuida
+    • Participación formal y vinculante
+    • Transparencia
+    • Rendición de cuentas
+No-delegación algorítmica
+    • HITL real
+    • Responsabilidad institucional
+    • Decisión humana final
+Soberanía infraestructural
+    • Infraestructura pública y regional
+    • Condiciones a proveedores externos
+    • Tecnologías abiertas y auditables
+Rol de actores
+    • Estado:
+        ◦ regulación
+        ◦ protección de derechos
+    • Sociedad civil:
+        ◦ monitoreo
+        ◦ auditoría
+        ◦ co-creación
+Conexión con Arrecife
+    • Investigación aplicada
+    • Incidencia política
+    • Acompañamiento comunitario
+    • Producción de evidencia regional
 
-1. Qué mirar, qué preguntar, qué medir
-El primer paso para descolonizar la IA es cambiar las preguntas. La evaluación de un sistema no puede limitarse a precisión, eficiencia o escalabilidad.
-Algunas preguntas clave desde una perspectiva decolonial son:
-Qué mirar
-    • ¿Quién diseñó el sistema y desde dónde?
-    • ¿Qué problema dice resolver y quién lo definió?
-    • ¿En qué contextos sociales, culturales y territoriales se implementa?
-Qué preguntar
-    • ¿A quién beneficia realmente este sistema?
-    • ¿Quién asume los riesgos y los errores?
-    • ¿Qué grupos quedan fuera o son mal representados?
-    • ¿Existe consentimiento informado, colectivo y continuo?
-Qué medir
-    • Impactos diferenciados por género, raza, clase, territorio y OSIG.
-    • Riesgos de exclusión, vigilancia y estigmatización.
-    • Capacidad real de las personas para impugnar decisiones algorítmicas.
-    • Daños materiales (acceso a servicios, ingresos, derechos) y simbólicos (dignidad, reconocimiento, identidad).
-Medir sin este enfoque reproduce la colonialidad técnica; medir con enfoque situado la cuestiona.
-
-2. Gobernanza distribuida: decidir con, no sobre
-Uno de los pilares centrales de la inteligencia artificial colonial es la concentración del poder de decisión en un número reducido de actores, principalmente grandes empresas tecnológicas, élites técnicas especializadas y agencias estatales que operan de manera cerrada y poco transparente. En este modelo, las decisiones sobre qué sistemas se desarrollan, cómo funcionan y a quiénes afectan se toman sin la participación de las personas y comunidades que viven sus consecuencias cotidianas.
-Descolonizar la IA implica avanzar hacia modelos de gobernanza distribuida que rompan con esta lógica vertical y excluyente. Esto supone incorporar de manera formal y sostenida a la sociedad civil, a las comunidades afectadas y a organizaciones sociales en los procesos de diseño, implementación y evaluación de sistemas algorítmicos. No se trata de consultas puntuales o simbólicas, sino de la creación de espacios permanentes de deliberación con capacidad real de incidencia.
-La gobernanza distribuida también requiere garantizar el acceso público a información clara y comprensible sobre los sistemas de inteligencia artificial en uso, sus objetivos, sus criterios de decisión y los datos que los alimentan. Sin transparencia no es posible ejercer control social ni exigir responsabilidades frente a posibles daños. A ello se suman mecanismos de rendición de cuentas claros, efectivos y vinculantes, que permitan corregir, suspender o retirar sistemas que vulneren derechos.
-En este enfoque, la legitimidad tecnológica no se deriva únicamente de la eficiencia técnica o la innovación, sino de su anclaje democrático. Reconocer que la tecnología es un asunto político implica aceptar que sin participación real no puede haber justicia algorítmica. La gobernanza distribuida, por tanto, no es un complemento opcional, sino una condición fundamental para descolonizar la inteligencia artificial y devolver el poder de decisión a quienes históricamente han sido excluidos de él.
-
-3. No-delegación algorítmica: HITL real, no simbólico
-La consigna Human in the Loop (HITL) suele presentarse como una garantía ética en el uso de sistemas de inteligencia artificial. Sin embargo, en la práctica, este principio muchas veces se aplica de forma meramente simbólica. En numerosos contextos, la intervención humana se limita a validar o ejecutar decisiones que ya han sido previamente determinadas por el sistema algorítmico, sin margen real para el cuestionamiento o la corrección.
-Desde una perspectiva decolonial, se propone avanzar hacia un principio más robusto: la no-delegación algorítmica. Este enfoque sostiene que, especialmente en contextos de alto impacto sobre derechos y condiciones de vida, las decisiones no deben ser delegadas de facto a sistemas automatizados. La responsabilidad final debe recaer siempre en una persona identificable, con capacidad y autoridad para evaluar críticamente la recomendación algorítmica.
-Un enfoque de no-delegación algorítmica implica que la intervención humana no sea un simple trámite administrativo, sino una instancia sustantiva de deliberación. La persona responsable debe contar con información suficiente para comprender cómo el sistema llegó a una determinada recomendación, y debe tener la posibilidad efectiva de cuestionarla, modificarla o revertirla cuando sea necesario. Esto requiere trazabilidad clara de los procesos de decisión, así como sistemas diseñados para facilitar la comprensión y el control humano.
-Asimismo, este principio rechaza la idea de que el error algorítmico pueda diluir o desplazar las responsabilidades institucionales. Cuando un sistema falla o produce daño, la rendición de cuentas no puede atribuirse a una “caja negra” técnica, sino que debe recaer en las instituciones y actores que decidieron su adopción, diseño y uso. La no-delegación algorítmica resulta especialmente clave en ámbitos como la justicia, la salud, el bienestar social, la migración y la seguridad, donde las decisiones automatizadas pueden tener consecuencias profundas, irreversibles y desiguales sobre las personas y las comunidades.
-
-4. Soberanía sobre infraestructura: más allá del software
-Descolonizar la inteligencia artificial no se limita al análisis del software, los algoritmos o los datos. La infraestructura tecnológica —servidores, centros de datos, servicios en la nube y redes de telecomunicaciones— constituye un eje central de poder que condiciona de manera profunda cómo se diseñan, operan y gobiernan los sistemas de IA. Ignorar esta dimensión implica dejar intactas las bases materiales sobre las que se reproduce la colonialidad digital.
-En América Latina y el Caribe, la dependencia casi total de proveedores de infraestructura del Norte Global genera múltiples formas de vulnerabilidad. Esta dependencia expone a los Estados y a las instituciones públicas a riesgos políticos y económicos, limita el control efectivo sobre datos sensibles y estratégicos, y dificulta o directamente impide la auditoría plena de los sistemas que procesan información crítica. Además, concentra decisiones técnicas y comerciales fuera del territorio, debilitando la soberanía digital y la capacidad de respuesta frente a conflictos, cambios regulatorios o interrupciones del servicio.
-La falta de control infraestructural también tiene implicaciones directas para los derechos humanos. Cuando los datos de poblaciones enteras se almacenan y procesan en nubes extranjeras, bajo marcos legales ajenos y contratos opacos, se reduce la posibilidad de garantizar privacidad, seguridad y uso legítimo de la información. En este escenario, incluso los marcos normativos más avanzados pueden volverse ineficaces si no cuentan con respaldo material y técnico propio.
-Frente a este panorama, las propuestas desde la región apuntan a una estrategia activa de recuperación y fortalecimiento de la soberanía sobre la infraestructura digital. Esto incluye invertir en infraestructura pública y regional, establecer condiciones claras y exigibles para los proveedores externos, priorizar tecnologías abiertas y auditables que permitan mayor control y transparencia, y desarrollar capacidades técnicas locales que reduzcan la dependencia estructural. Sin una base infraestructural soberana, la descolonización de la IA queda incompleta, ya que el poder real continúa concentrado en actores externos, más allá de cualquier ajuste en el discurso o en el diseño de los sistemas.
-
-5. Rol del Estado y la sociedad civil
-La descolonización de la inteligencia artificial no puede ser asumida por un solo actor ni reducida a iniciativas aisladas. Se trata de un proceso estructural que requiere la acción coordinada —y en tensión productiva— entre el Estado, la sociedad civil, las comunidades afectadas y otros actores del ecosistema tecnológico. Sin esta articulación, los esfuerzos por transformar la IA corren el riesgo de quedarse en declaraciones simbólicas sin impacto real.
-El rol del Estado es central. Corresponde a las instituciones públicas regular el desarrollo y uso de la IA desde un enfoque de derechos humanos, estableciendo límites claros a los sistemas que afectan derechos fundamentales. Esto implica exigir evaluaciones de impacto algorítmico situadas antes de la adopción de tecnologías de alto riesgo, garantizar la transparencia y el acceso público a la información sobre los sistemas utilizados, y asegurar mecanismos efectivos de rendición de cuentas. Asimismo, el Estado tiene la responsabilidad de proteger de manera prioritaria a las poblaciones históricamente vulneradas, evitando que la automatización reproduzca o profundice desigualdades existentes.
-La sociedad civil, por su parte, cumple un papel irremplazable como contrapeso y como fuente de conocimiento situado. Organizaciones sociales, colectivos comunitarios, movimientos feministas, indígenas y de derechos humanos monitorean el uso de tecnologías, documentan abusos, denuncian impactos negativos y proponen alternativas basadas en la experiencia directa de quienes viven las consecuencias de la automatización. Su participación no se limita a la crítica: también aportan metodologías de co-creación, auditoría social y diseño participativo que permiten construir sistemas más justos y contextualizados.
-La relación entre el Estado y la sociedad civil no debe ser jerárquica ni instrumental. Una descolonización efectiva de la IA requiere una relación colaborativa, pero también tensionada, en la que existan espacios de diálogo, desacuerdo y vigilancia mutua. Esta dinámica es parte constitutiva de una democracia saludable y resulta indispensable para garantizar que la transformación tecnológica no se realice a espaldas de la ciudadanía, sino como un proceso colectivo orientado a la justicia algorítmica y la autodeterminación regional.
-
-6. Conexión con activismo y trabajo de Arrecife
-Descolonizar la inteligencia artificial es una tarea inseparable del activismo por los derechos humanos. No se trata únicamente de optimizar sistemas técnicos o corregir sesgos puntuales, sino de disputar el sentido político de tecnologías que hoy intervienen en la gestión de cuerpos, territorios, identidades y derechos. La IA, cuando se despliega sin control democrático ni enfoque de justicia social, puede convertirse en una nueva herramienta de vigilancia, exclusión y disciplinamiento. Frente a ello, la descolonización aparece como una forma de resistencia y de defensa activa de la dignidad humana.
-En este marco, el trabajo de Arrecife se sitúa explícitamente en la intersección entre datos, tecnología y derechos humanos, con una mirada anclada en las realidades de América Latina. La organización apuesta por la producción de conocimiento crítico desde la región, cuestionando marcos importados y visibilizando cómo la colonialidad tecnológica reproduce desigualdades históricas. Este enfoque no es meramente académico: busca generar evidencia útil para la incidencia política, la toma de decisiones públicas y la construcción de alternativas concretas frente al uso indiscriminado de tecnologías automatizadas.
-Arrecife articula investigación, análisis de datos y trabajo territorial para acompañar a organizaciones sociales, colectivas y comunidades que enfrentan impactos reales de la automatización. A través del fortalecimiento de capacidades, la sistematización de casos y la creación de espacios de diálogo entre actores diversos, la organización contribuye a que las discusiones sobre IA no queden restringidas a élites técnicas, sino que incorporen voces históricamente excluidas de los procesos de diseño y gobernanza tecnológica.
-En última instancia, la descolonización de la IA es una lucha por el derecho a decidir. Decidir qué tecnologías se adoptan, bajo qué condiciones, con qué datos y con qué límites. Decidir quién participa en esas decisiones y quién asume responsabilidades cuando los sistemas fallan o generan daño. Desde esta perspectiva, la IA no es solo un campo técnico, sino un terreno político en disputa, y el trabajo de Arrecife se inscribe en ese esfuerzo colectivo por construir tecnologías que estén al servicio de la vida, los derechos y la autodeterminación de nuestras comunidades.
-
-Cierre
-Pasar de la crítica a la acción implica asumir que la IA no es inevitable ni neutral. Es un campo en disputa.
-Descolonizar la IA es un proceso continuo que requiere:
-    • Preguntar distinto.
-    • Diseñar distinto.
-    • Gobernar distinto.
-    • Y, sobre todo, hacerlo desde el Sur, con el Sur y para el Sur.
-
-
-🔚 Cierre
-Descolonizar la IA no es rechazar la tecnología, es disputar su sentido
-Descolonizar la inteligencia artificial no significa oponerse al desarrollo tecnológico ni idealizar un pasado sin herramientas digitales. Significa reconocer que la tecnología nunca es neutral, que siempre expresa relaciones de poder, y que hoy la IA está siendo diseñada, desplegada y gobernada desde marcos que reproducen desigualdades históricas.
-La disputa no es contra la IA en sí, sino contra un modelo de IA: extractivo, centralizado, opaco y desconectado de las realidades sociales, culturales y territoriales de América Latina y el Caribe.
-Frente a esto, descolonizar la IA implica reclamar el derecho a decidir:
-    • qué problemas se resuelven con tecnología,
-    • cómo se diseñan los sistemas,
-    • qué datos se usan,
-    • quién asume los riesgos,
-    • y quién se beneficia de sus resultados.
-Es una disputa por el sentido, por la orientación ética y política de la tecnología, y por su capacidad de servir a la justicia social y no a la profundización de la exclusión.
-
-📣 Llamado a la acción
-Este documento no busca ser un punto de llegada, sino un punto de partida. Descolonizar la IA es un proceso colectivo que requiere la participación de:
-    • organizaciones de derechos humanos,
-    • movimientos feministas y LGBTIQ+,
-    • pueblos indígenas y comunidades afrodescendientes,
-    • académicas y académicos del Sur Global,
-    • responsables de políticas públicas,
-    • y personas técnicas dispuestas a cuestionar las lógicas dominantes.
-Invitamos a:
-    • usar este marco para analizar proyectos, políticas y sistemas algorítmicos;
-    • adaptarlo a contextos locales y sectoriales;
-    • contribuir con casos, lecturas, metodologías y experiencias desde la región;
-    • exigir gobernanza democrática, transparencia y rendición de cuentas en el uso de IA.
-
-🔗 Recursos y continuidad
-📂 Repositorio GitHub — Descolonizar la IA (ALC)
-Aquí encontrarás el documento completo, lecturas clave, recursos por tema y materiales abiertos para investigación, incidencia y formación.
-👉 (agregar enlace al repo)
-🌐 Linktree de Arrecife
-Accede a nuestras redes, publicaciones, recursos y próximos contenidos de la campaña.
-👉 (agregar enlace al Linktree)
-
-📚 Bibliografía (Fuentes utilizadas para el análisis)
-Esta bibliografía reúne textos académicos, informes, artículos y documentos producidos desde América Latina y el Caribe —o centrados explícitamente en la región— que fundamentan el análisis sobre colonialidad tecnológica, inteligencia artificial, justicia algorítmica y descolonización de la tecnología.
-Colonialidad, poder y tecnología
-    • Ricaurte, Paola (2019). Data epistemologies, the coloniality of power, and resistance.
-Análisis clave sobre cómo los datos y la IA reproducen estructuras coloniales y cómo pensar alternativas desde el Sur Global.
-    • Milan, Stefania & Treré, Emiliano (2020). The rise of the data poor: The COVID-19 pandemic seen from the margins.
-Examina exclusiones digitales y desigualdades estructurales en contextos latinoamericanos.
-    • Treré, Emiliano (2022). Hybrid media activism: Ecologies, imaginaries, algorithms.
-Aborda el rol de infraestructuras digitales y algoritmos en disputas políticas contemporáneas.
-    • Quijano, Aníbal (2000). Colonialidad del poder, eurocentrismo y América Latina.
-Texto fundamental para comprender la colonialidad como estructura persistente que atraviesa tecnología y conocimiento.
-
-Feminismos, datos y justicia algorítmica
-    • D’Ignazio, Catherine & Klein, Lauren (2020). Data Feminism.
-Marco clave utilizado críticamente desde América Latina para repensar poder, datos y tecnología.
-    • Espinosa Miñoso, Yuderkys (2014). Tejiendo de otro modo: Feminismo, epistemología y apuestas descoloniales en Abya Yala.
-Aporta una crítica feminista decolonial fundamental para pensar tecnología y conocimiento situado.
-    • DataGénero (Argentina). Informes sobre género, datos y políticas públicas.
-Documentación empírica sobre exclusión algorítmica y sesgos en sistemas estatales.
-
-Inteligencia artificial, derechos humanos y políticas públicas
-    • BID – Banco Interamericano de Desarrollo (2020–2023).
-Algorithmic Impact Assessment Toolkit y documentos sobre IA y sector público en América Latina.
-    • Ramos, Lucía; Segura, María; otros (varios).
-Estudios sobre automatización del bienestar social, género y exclusión en América Latina.
-    • Global Voices / Entrevistas regionales
-Testimonios y análisis críticos sobre colonialismo digital, lenguas indígenas y tecnologías emergentes.
-
-Gobernanza de datos y justicia lingüística
-    • Principios CARE para la Gobernanza de Datos Indígenas
-Collective Benefit, Authority to Control, Responsibility, Ethics.
-    • Sursiendo (México). Colonialismo digital y tecnologías comunitarias.
-Experiencias prácticas de soberanía tecnológica y datos comunitarios.
-    • Laboratorio El Rule (México).
-Innovación cívica, tecnología situada y participación ciudadana.
-
-🌎 Autoras, autores y organizaciones del Sur Global y el Caribe recomendadas
-Las siguientes autoras, autores y colectivos producen pensamiento crítico, investigación aplicada y acción política desde América Latina y el Caribe, contribuyendo activamente a la descolonización de la tecnología y la inteligencia artificial.
-Autoras y autores
-    • Paola Ricaurte (México)
-    • Yuderkys Espinosa Miñoso (República Dominicana / Caribe)
-    • Rita Segato (Argentina / Brasil)
-    • Aníbal Quijano (Perú)
-    • Silvia Rivera Cusicanqui (Bolivia)
-    • Emiliano Treré (México / Ecuador)
-    • María Paz Canales (Chile)
-    • Joana Varon (Brasil)
-    • Lucía Ramos (Argentina)
-
-Organizaciones y colectivos
-    • DataGénero (Argentina)
-    • Sursiendo (México)
-    • Laboratorio El Rule (México)
-    • Derechos Digitales (Chile / ALC)
-    • Fundación Karisma (Colombia)
-    • Coding Rights (Brasil)
-    • Instituto Nupef (Brasil)
-    • Hiperderecho (Perú)
-
-Redes y espacios regionales
-    • Feminist AI Research Network (ALC)
-    • Red de Datos Feministas en América Latina
-    • Coaliciones por la Justicia Algorítmica en ALC
-    • Iniciativas de lenguas indígenas y tecnología comunitaria
-Esta bibliografía no pretende ser exhaustiva. Es una invitación abierta a seguir ampliando, citando y construyendo conocimiento colectivo desde América Latina y el Caribe, reconociendo que la descolonización de la inteligencia artificial es un proceso vivo, situado y en disputa.
+🔚 Cierre — Descolonizar la IA es disputar su sentido
+    • No es rechazo tecnológico
+    • Es reapropiación política
+    • Redistribución de poder
+    • Defensa de derechos
+    • Construcción democrática de tecnología
+Llamado a la acción
+    • Explorar el repositorio GitHub
+    • Compartir recursos
+    • Sumarse a la campaña
+    • Pensar IA desde América Latina
