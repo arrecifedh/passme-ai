@@ -176,7 +176,7 @@ Conexión con Arrecife
     • Defensa de derechos
     • Construcción democrática de tecnología
 Llamado a la acción
-    • Explorar el repositorio GitHub
+    • Explorar el repositorio GitHub/Wix
     • Compartir recursos
     • Sumarse a la campaña
     • Pensar IA desde América Latina
